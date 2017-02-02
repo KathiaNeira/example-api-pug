@@ -1,0 +1,19 @@
+{
+  "name": "example-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pugDemo.js",
+  "scripts": {
+    "pug": "node ./pugDemo.js",
+    "watch": "pug -w ./frontend/pug/*.pug --pretty --out  './src/html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^0.1.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
