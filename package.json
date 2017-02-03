@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "pug": "^0.1.0"
-  },
-  "dependencies": {
     "glob": "^7.1.1",
+    "pug": "^2.0.0-beta2",
     "pug-cli": "^1.0.0-alpha6"
   }
 }

@@ -1,0 +1,12 @@
+//- creando variables
+- var items = ['1', '2', '3', '4', '5', '6'];
+
+//- creando mixin
+mixin grilla(content)
+  div.bg-grilla(class="color")= content
+
+section: div.b-grillas
+  h2 Iteración
+  div.b-grillas
+    each val in items
+      +grilla(val)
